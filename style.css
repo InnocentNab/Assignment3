@@ -1,0 +1,426 @@
+body {
+    background: #F5F8FA;
+
+}
+
+.container {
+    padding-inline: 5px;
+    padding-top: 5px;
+
+
+    >header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 2px;
+        margin-inline: 40px;
+    }
+
+
+    >header>nav>ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style-type: none;
+        gap: 20px;
+        color: #1D2C3C;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.01px;
+    }
+
+    >header>nav>ul>li>button {
+        display: flex;
+        text-align: center;
+        width: 91px;
+        height: 40px;
+        flex-shrink: 0;
+        border-radius: 6px;
+        border: 2px solid #646E7A;
+        padding: 11px 20px 12px 19px;
+        color: #1D2C3C;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.01px;
+    }
+}
+
+main {
+    display: flex;
+    justify-content: center;
+
+
+    >.wrapper>.rec>button {
+        border-radius: 5px;
+        background: #038E7D;
+        width: 483px;
+        height: 52px;
+        color: white;
+        flex-shrink: 0;
+        color: #FFF;
+        text-align: center;
+        font-family: Lato;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.396px;
+        margin-top: 20px;
+    }
+}
+
+main>.wrapper {
+    display: flex;
+    /* border: 1px solid green; */
+    padding-bottom: 25px;
+    width: 781px;
+    height: 616px;
+    margin-top: 40px;
+    border-radius: 6px;
+    background: #FFF;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.05), 0px 15px 35px 0px rgba(43, 64, 78, 0.10);
+}
+
+main>.wrapper>.rec {
+    padding-inline-start: 48px;
+    padding-block-start: 10px;
+    /* border-radius: 6px; */
+    /* background: #FFF; */
+    /* box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.05), 0px 15px 35px 0px rgba(43, 64, 78, 0.10); */
+
+
+}
+
+.B-Info {
+    color: #1D2C3C;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* letter-spacing: -0.16px; */
+    display: flex;
+    gap: 3px;
+
+}
+
+/* .one {} */
+
+.f-top {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 10px;
+
+    >div>input {
+        border-radius: 4px;
+        background: #EDEFF2;
+        border: none;
+        outline: none;
+        padding: 5px 0 5px 13px;
+    }
+}
+
+
+
+form {
+    margin-bottom: 30px;
+
+}
+
+
+.p-Info {
+    color: #1D2C3C;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* letter-spacing: -0.16px; */
+    display: flex;
+    gap: 3px;
+
+}
+
+
+.b-btn {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 8px;
+    margin-top: 15px;
+    margin-inline: 60px;
+}
+
+.any {
+    height: 20px;
+    width: 20px;
+    border: 1px solid #548BC5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1179BF;
+}
+
+.d-hesitate {
+    color: #1D2C3C;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.01px;
+    color: #646E7A;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.01px;
+}
+
+.b-logo {
+    padding-top: 30px;
+    padding-inline-start: 246px;
+    /* width: 92px;
+    height: 20.101px;
+    flex-shrink: 0;
+    color: #566473;
+    margin-top: 15px;
+    margin-inline-start: 20px; */
+}
+
+footer {
+    color: #636B6F;
+    text-align: center;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #31708F;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 33px;
+}
+
+.f-mail-top {
+
+    >input {
+        border-radius: 4px;
+        background: #EDEFF2;
+        border: none;
+        outline: none;
+        padding: 5px 0 5px 13px;
+    }
+}
+
+.i-card-number {
+    display: flex;
+    justify-content: space-between;
+    width: 483px;
+    height: 36px;
+    border-radius: 4px;
+    background: #EDEFF2;
+    border: none;
+    outline: none;
+
+    >.i-card-end {
+        display: flex;
+
+        >input {
+            background: #EDEFF2;
+            padding-inline-start: 10px;
+            box-sizing: border-box;
+            outline: none;
+            border: none;
+        }
+
+    }
+
+    >input {
+        background: #EDEFF2;
+        padding-inline-start: 10px;
+        box-sizing: border-box;
+        outline: none;
+        border: none;
+    }
+}
+
+.sidebar {
+    border-radius: 0px 6px 6px 0px;
+    background: #1179BF;
+    margin-left: 10px;
+    padding-inline-start: 46px;
+    padding-inline-end: 15px;
+    /* padding-block-start: 10px; */
+    height: 616px;
+    color: white;
+    padding-top: 26px;
+
+    >.folder1>h2 {
+        color: #FFF;
+        font-family: Lato;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.01px;
+    }
+
+    >.folder1>p {
+        color: #FFF;
+        font-family: Lato;
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 24px;
+        /* 150% */
+        letter-spacing: -0.008px;
+    }
+
+}
+
+
+.amt>span {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -0.015px;
+}
+
+.amt sub {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+
+}
+
+.amt sup {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+
+}
+
+.folder2 {
+
+    /* display: flex; */
+    /* padding-top: 3px; */
+    >h2 {
+        display: flex;
+        /* justify-content: center`; */
+        align-items: center;
+        gap: 4px;
+        color: #FFF;
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 150% */
+        letter-spacing: -0.008px;
+    }
+
+    >h2>span {
+        height: 20px;
+        width: 20px;
+        border: 1px solid #B9F5FF;
+        border-radius: 50%;
+        color: #B9F5FF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+
+
+.folder3 {
+    /* padding-top: 5px; */
+    padding-bottom: 20px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.008px;
+    /* border-bottom: 2px solid #B9F5FF; */
+    border-bottom: 2px solid rgba(185, 245, 255, 0.3);
+
+    >h4>span {
+        color: #FFF;
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.008px;
+    }
+
+    >h3 {
+        width: 227px;
+        color: #FFF;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.008px;
+        border-bottom: 2px solid #B9F5FF;
+    }
+}
+
+.folder4 {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    /* 133.333% */
+    letter-spacing: -0.009px;
+}
+
+.folder5 {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    >img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+
+    >h2 {
+        color: #FFF;
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.008px;
+    }
+}
